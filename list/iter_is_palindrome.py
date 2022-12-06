@@ -27,7 +27,6 @@ def iter_is_palindrome(head):
 
     while fast != None and fast.next_node != None:
         stack.append(slow.data)
-        print(slow.data)
         slow = slow.next_node
         fast = fast.next_node.next_node
     
